@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 20px, 10px,10px, 2opx;
+    border:2px ;
+    border-color: aqua;
+    padding: 30px;
+}
+#section1{
+    text-align: justify;
+    color: green;
+    font-size: 14px;
+}
+p{ margin: 20px;}
+#section2{
+    text-align: justify;
+    color: red;
+    font-size: 14px;
+}
+#section3{
+    text-align: justify;
+    color: blue;
+    font-size: 14px;
+}
+#tally{
+    font-style: italic;
+}
