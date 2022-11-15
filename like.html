@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Likes&Dislikes</title>
     <style>
-        body{
-            background-color: darkcyan;
-        }
-        h1{
+        h1, h2{
             text-align: center;
             color: tomato;
             text-decoration: underline;
@@ -21,6 +18,7 @@
             flex: 1;
             border: 2px solid greenyellow;
             padding: 20px;
+            border-radius: 50px;
         }
         .cont2:first-child{
             margin-right: 20px;
@@ -44,15 +42,18 @@
             font-weight: bold;
         }
         #ul-l{
-            color: crimson;
+            color: rgb(37, 75, 202);
+        }
+        #p{
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>My Likes and Dislikes</h1>
-    <p>Hi!, do you ever sit and analyse your likes and dislikes.</p>
+    <p id="p">Hi!, do you ever sit and analyse your likes and dislikes.</p>
     <hr>
-    <div class="cont1">
+    <div class="cont1" class="vl">
         <div class="cont2 blue" id="c1">
             <h2>My Likes</h2>
             <p><i>Here is the list of things I like as a person:</i></p>
