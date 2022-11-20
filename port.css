@@ -1,0 +1,99 @@
+body{
+    background-color: khaki;
+}
+.topnav{
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: darkgreen;
+    text-align: center;
+    padding: 14px 0px 15px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* .logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;; 
+}*/
+.topnav a.split{
+    float: right;
+    padding: 20px;
+}
+.split:hover{
+    background-color: burlywood;
+    color: black;
+}
+#tanko{
+    color: #000;
+    font-family: fantasy;
+}
+.bg{
+    border-color: aquamarine;
+    margin: 10px 20px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+#shadow{
+    border: 1px;
+    padding: 0px;
+    box-shadow: 5px 10px #888888;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    
+}
+.dflex{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 250px 10px;
+}
+.dflex .text{
+    flex: 1;
+    padding: 0px 30px 0px;
+    text-align: justify;
+    font-size: 20px;
+}
+#hi{
+    font-weight: bolder;
+    font-size:30px;
+}
+.dflex .text1{
+    flex: 1;
+    padding: 0px 50px 150px 0px;
+    text-align: justify;
+    font-size: 20px;
+}
+/* #text2{
+    border-style: solid;
+    border: 3px; */
+}
+.box {
+    display: grid;
+    width:70px;
+    grid-template-columns: 20px 20px 20px;
+    align-items: start;
+    justify-content: space-between;
+  }
+  
+  .box :first-child {
+      align-self: center;
+  }
+  .box{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: .5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #888888;
+    font-weight: bold;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+  }
